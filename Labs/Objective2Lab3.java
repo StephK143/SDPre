@@ -5,7 +5,7 @@ public class Objective2Lab3 {
       num1 = 46;
       num2 = 34;
       num3 = 14;
-      average = num1 + num2 + num3/3;
+      average = (num1 + num2 + num3)/3;
 
         System.out.println(" Average: " + average);
 
