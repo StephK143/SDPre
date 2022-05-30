@@ -1,23 +1,31 @@
+import java.util.Scanner;
+
+
 public class Objective4Lab1 {
   public static void main(String[] args) {
 
-    java.util.Scanner scanner = new java.util.Scanner(System.in);
+    Scanner keyboard = new Scanner(System.in);
 
+    String fname = "";
+    String lname = "";
+    String favoriteAnimal = "";
+    String favoriteFood = "";
+    String favoriteSong = "";
 
     System.out.println("What is your first name?");
-      String fname = scanner.nextLine();
+      fname = keyboard.nextLine();
 
     System.out.println("What is your last name?");
-      String lname = scanner.nextLine();
+      lname = keyboard.nextLine();
 
     System.out.println("What is your favorite animal?");
-      String favoriteAnimal = scanner.nextLine();
+      favoriteAnimal = keyboard.nextLine();
 
     System.out.println("What is your favorite food?");
-      String favoriteFood = scanner.nextLine();
+      favoriteFood = keyboard.nextLine();
 
     System.out.println("What is your favorite song?");
-      String favoriteSong = scanner.nextLine();
+      favoriteSong = keyboard.nextLine();
 
     System.out.println("My name is " + fname + " " + lname + ".");
 
@@ -27,8 +35,7 @@ public class Objective4Lab1 {
 
     System.out.println("My favorite song is " + favoriteSong + ".");
 
-    scanner.close();
-
+    keyboard.close();
 
   }
 }
