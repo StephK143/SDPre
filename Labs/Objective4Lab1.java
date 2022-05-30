@@ -11,6 +11,7 @@ public class Objective4Lab1 {
     String favoriteAnimal = "";
     String favoriteFood = "";
     String favoriteSong = "";
+    
 
     System.out.println("What is your first name?");
       fname = keyboard.nextLine();
