@@ -11,6 +11,7 @@ public class Objective4Lab3 {
     System.out.println("How old are you?");
     age = input.nextInt();
 
+
     System.out.println("You were born in " + (currentYear - age));
     input.close();
   }
